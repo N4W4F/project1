@@ -64,22 +64,14 @@ public class Calculator {
 
     public static double doOperation(int choice, double num1, double num2) {
         switch (choice) {
-            case 1:
-                return add(num1, num2);
-            case 2:
-                return subtract(num1, num2);
-            case 3:
-                return multiply(num1, num2);
-            case 4:
-                return divide(num1, num2);
-            case 5:
-                return modulus(num1, num2);
-            case 6:
-                return min(num1, num2);
-            case 7:
-                return max(num1, num2);
-            case 8:
-                return average(num1, num2);
+            case 1: return add(num1, num2);
+            case 2: return subtract(num1, num2);
+            case 3: return multiply(num1, num2);
+            case 4: return divide(num1, num2);
+            case 5: return modulus(num1, num2);
+            case 6: return min(num1, num2);
+            case 7: return max(num1, num2);
+            case 8: return average(num1, num2);
             default:
                 System.out.println("Invalid choice, please try again.");
                 return 0;
